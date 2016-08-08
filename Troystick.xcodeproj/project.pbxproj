@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		419FDD5E1D592D1300B11F66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 419FDD5D1D592D1300B11F66 /* AppDelegate.m */; };
+		419FDD601D592D1300B11F66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 419FDD5F1D592D1300B11F66 /* main.m */; };
+		419FDD621D592D1300B11F66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419FDD611D592D1300B11F66 /* Images.xcassets */; };
+		419FDD651D592D1300B11F66 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 419FDD631D592D1300B11F66 /* MainMenu.xib */; };
+		419FDD711D592D1300B11F66 /* TroystickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 419FDD701D592D1300B11F66 /* TroystickTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		419FDD6B1D592D1300B11F66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 419FDD4F1D592D1300B11F66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 419FDD561D592D1300B11F66;
+			remoteInfo = Troystick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		419FDD571D592D1300B11F66 /* Troystick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Troystick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		419FDD5B1D592D1300B11F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419FDD5C1D592D1300B11F66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		419FDD5D1D592D1300B11F66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		419FDD5F1D592D1300B11F66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		419FDD611D592D1300B11F66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		419FDD641D592D1300B11F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		419FDD6A1D592D1300B11F66 /* TroystickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroystickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		419FDD6F1D592D1300B11F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419FDD701D592D1300B11F66 /* TroystickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TroystickTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		419FDD541D592D1300B11F66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419FDD671D592D1300B11F66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		419FDD4E1D592D1300B11F66 = {
+			isa = PBXGroup;
+			children = (
+				419FDD591D592D1300B11F66 /* Troystick */,
+				419FDD6D1D592D1300B11F66 /* TroystickTests */,
+				419FDD581D592D1300B11F66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		419FDD581D592D1300B11F66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				419FDD571D592D1300B11F66 /* Troystick.app */,
+				419FDD6A1D592D1300B11F66 /* TroystickTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		419FDD591D592D1300B11F66 /* Troystick */ = {
+			isa = PBXGroup;
+			children = (
+				419FDD5C1D592D1300B11F66 /* AppDelegate.h */,
+				419FDD5D1D592D1300B11F66 /* AppDelegate.m */,
+				419FDD611D592D1300B11F66 /* Images.xcassets */,
+				419FDD631D592D1300B11F66 /* MainMenu.xib */,
+				419FDD5A1D592D1300B11F66 /* Supporting Files */,
+			);
+			path = Troystick;
+			sourceTree = "<group>";
+		};
+		419FDD5A1D592D1300B11F66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				419FDD5B1D592D1300B11F66 /* Info.plist */,
+				419FDD5F1D592D1300B11F66 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		419FDD6D1D592D1300B11F66 /* TroystickTests */ = {
+			isa = PBXGroup;
+			children = (
+				419FDD701D592D1300B11F66 /* TroystickTests.m */,
+				419FDD6E1D592D1300B11F66 /* Supporting Files */,
+			);
+			path = TroystickTests;
+			sourceTree = "<group>";
+		};
+		419FDD6E1D592D1300B11F66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				419FDD6F1D592D1300B11F66 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		419FDD561D592D1300B11F66 /* Troystick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419FDD741D592D1300B11F66 /* Build configuration list for PBXNativeTarget "Troystick" */;
+			buildPhases = (
+				419FDD531D592D1300B11F66 /* Sources */,
+				419FDD541D592D1300B11F66 /* Frameworks */,
+				419FDD551D592D1300B11F66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Troystick;
+			productName = Troystick;
+			productReference = 419FDD571D592D1300B11F66 /* Troystick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		419FDD691D592D1300B11F66 /* TroystickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419FDD771D592D1300B11F66 /* Build configuration list for PBXNativeTarget "TroystickTests" */;
+			buildPhases = (
+				419FDD661D592D1300B11F66 /* Sources */,
+				419FDD671D592D1300B11F66 /* Frameworks */,
+				419FDD681D592D1300B11F66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				419FDD6C1D592D1300B11F66 /* PBXTargetDependency */,
+			);
+			name = TroystickTests;
+			productName = TroystickTests;
+			productReference = 419FDD6A1D592D1300B11F66 /* TroystickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		419FDD4F1D592D1300B11F66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Oleg Afanasyev";
+				TargetAttributes = {
+					419FDD561D592D1300B11F66 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					419FDD691D592D1300B11F66 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 419FDD561D592D1300B11F66;
+					};
+				};
+			};
+			buildConfigurationList = 419FDD521D592D1300B11F66 /* Build configuration list for PBXProject "Troystick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 419FDD4E1D592D1300B11F66;
+			productRefGroup = 419FDD581D592D1300B11F66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				419FDD561D592D1300B11F66 /* Troystick */,
+				419FDD691D592D1300B11F66 /* TroystickTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		419FDD551D592D1300B11F66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419FDD621D592D1300B11F66 /* Images.xcassets in Resources */,
+				419FDD651D592D1300B11F66 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419FDD681D592D1300B11F66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		419FDD531D592D1300B11F66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419FDD601D592D1300B11F66 /* main.m in Sources */,
+				419FDD5E1D592D1300B11F66 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419FDD661D592D1300B11F66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419FDD711D592D1300B11F66 /* TroystickTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		419FDD6C1D592D1300B11F66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 419FDD561D592D1300B11F66 /* Troystick */;
+			targetProxy = 419FDD6B1D592D1300B11F66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		419FDD631D592D1300B11F66 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				419FDD641D592D1300B11F66 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		419FDD721D592D1300B11F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		419FDD731D592D1300B11F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		419FDD751D592D1300B11F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Troystick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		419FDD761D592D1300B11F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Troystick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		419FDD781D592D1300B11F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TroystickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Troystick.app/Contents/MacOS/Troystick";
+			};
+			name = Debug;
+		};
+		419FDD791D592D1300B11F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TroystickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Troystick.app/Contents/MacOS/Troystick";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		419FDD521D592D1300B11F66 /* Build configuration list for PBXProject "Troystick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419FDD721D592D1300B11F66 /* Debug */,
+				419FDD731D592D1300B11F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419FDD741D592D1300B11F66 /* Build configuration list for PBXNativeTarget "Troystick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419FDD751D592D1300B11F66 /* Debug */,
+				419FDD761D592D1300B11F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		419FDD771D592D1300B11F66 /* Build configuration list for PBXNativeTarget "TroystickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419FDD781D592D1300B11F66 /* Debug */,
+				419FDD791D592D1300B11F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 419FDD4F1D592D1300B11F66 /* Project object */;
+}
