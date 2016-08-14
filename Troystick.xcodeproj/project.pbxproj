@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		414227561D60CF9E00094151 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 414227551D60CF9E00094151 /* README.md */; };
 		419FDD5E1D592D1300B11F66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 419FDD5D1D592D1300B11F66 /* AppDelegate.m */; };
 		419FDD601D592D1300B11F66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 419FDD5F1D592D1300B11F66 /* main.m */; };
 		419FDD621D592D1300B11F66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419FDD611D592D1300B11F66 /* Images.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		414227551D60CF9E00094151 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		419FDD571D592D1300B11F66 /* Troystick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Troystick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		419FDD5B1D592D1300B11F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		419FDD5C1D592D1300B11F66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				419FDD611D592D1300B11F66 /* Images.xcassets */,
 				419FDD631D592D1300B11F66 /* MainMenu.xib */,
 				419FDD5A1D592D1300B11F66 /* Supporting Files */,
+				414227551D60CF9E00094151 /* README.md */,
 			);
 			path = Troystick;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414227561D60CF9E00094151 /* README.md in Sources */,
 				419FDD601D592D1300B11F66 /* main.m in Sources */,
 				419FDD5E1D592D1300B11F66 /* AppDelegate.m in Sources */,
 			);
@@ -398,6 +402,7 @@
 				419FDD761D592D1300B11F66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		419FDD771D592D1300B11F66 /* Build configuration list for PBXNativeTarget "TroystickTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +411,7 @@
 				419FDD791D592D1300B11F66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
